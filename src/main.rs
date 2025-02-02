@@ -1,7 +1,7 @@
 use Erida::run;
 
 fn main() {
-    run();
+    pollster::block_on(run());
 }
 
 
