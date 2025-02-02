@@ -1,5 +1,7 @@
+use Erida::run;
+
 fn main() {
-    println!("Hello, Erida")
+    run();
 }
 
 
